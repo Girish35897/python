@@ -5,7 +5,7 @@ class Item():
     to calculate total price
     '''
 
-    def __init__(self,name,price,quantity): #Constructor 
+    def __init__(self,name: str,price: float,quantity: int): #Constructor 
         self.name = name
         self.price = price
         self.quantity = quantity
